@@ -27,15 +27,15 @@
         var access_hash = '<?=$security->ReturnAccessHash()?>';
         var session_id = '<?=$security->ReturnSessionId()?>';
         
-        function submit(){
-          var isData = {};
-			    isData['title'] = $("#title").val();
-			    isData['msg'] = $("#msg").val();
-			
-			    send(isData, success, null);
-        }
-        function success(data){
-          console.log(data);
+	function submit(){
+		var isData = {};
+		isData['title'] = $("#title").val();
+		isData['msg'] = $("#msg").val();
+	
+		send(isData, success, null);
+	}
+	function success(data){
+		console.log(data);
         }
         function send(data, callback, params){
             $.ajax(
