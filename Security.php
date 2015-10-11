@@ -10,7 +10,7 @@ class Security {
 
 		$this->user_ip = md5($_SERVER['REMOTE_ADDR']."solt_security");
 		if ($cookie){
-			$this->rand_anti_condom = rand(1000000, 9999999);			
+			$this->rand_anti_condom = mt_rand(1000000, 9999999);			
 			$this->url_hash = md5("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."solt_security");
 			setcookie("sp", $this->url_hash, time()+7200, "/", ".".$_SERVER['SERVER_NAME'],false, false);
 			setcookie("si", $this->rand_anti_condom, time()+7200, "/", ".".$_SERVER['SERVER_NAME'],false, false);
