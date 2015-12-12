@@ -10,3 +10,7 @@ Every one time when you reload page with you HTML form, Security Class genering 
 # Install
 
 if you need AJAX version protection, look example. If not wait, example and instruction coming soon. 
+
+# Prodaction?
+
+Yes, sure, follow to alamio.de and try
