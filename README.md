@@ -11,6 +11,6 @@ Every one time when you reload page with you HTML form, Security Class genering 
 
 if you need AJAX version protection, look example. If not wait, example and instruction coming soon. 
 
-# Prodaction?
+# Production ready?
 
-Yes, sure, follow to alamio.de and try
+Yes, sure, follow to <a href="http://alamio.de/">alamio.de</a> and try
